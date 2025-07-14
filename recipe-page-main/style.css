@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+
+:root {
+    --White: hsl(0, 0%, 100%);
+    --Stone1: hsl(30, 54%, 90%);
+    --Stone2: hsl(30, 18%, 87%);
+    --Stone3: hsl(30, 10%, 34%);
+    --Stone4: hsl(24, 5%, 18%);
+    --Brown: hsl(14, 45%, 36%);
+    --Rose1: hsl(330, 100%, 98%);
+    --Rose2: hsla(332, 51%, 32%, 0.356);
+    --Rose3: hsl(332, 51%, 32%);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    line-height: 1.5;
+}
+
+body {
+    background: var(--Stone1);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Young Serif", serif;
+
+}
+
+p {
+    font-family: "Outfit", sans-serif;
+    line-height: 2;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 700px;
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: var(--White);
+    border-radius: 20px;
+    padding: 2rem;
+}
+
+.omlet-title p {
+    color: rgb(100, 100, 100);
+}
+
+.omlet-title h2 {
+    color: rgb(36, 36, 36);
+}
+
+.omlet-title {
+    margin-top: 1rem;
+
+}
+
+.preporation {
+    background-color: var(--Rose2);
+    padding: 1rem;
+    border-radius: 20px;
+}
+
+.preporation h4 {
+    color: var(--Rose3);
+
+}
+
+.preporation span {
+    font-weight: bolder;
+}
+
+.preporation ul {
+    margin-left: 1.5rem;
+}
+
+.preporation ul li::marker {
+    color: var(--Rose3);
+}
+
+.ingredients {
+    padding: 1rem;
+
+}
+
+.ingredients h3 {
+    color: var(--Brown);
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+
+}
+
+.ingredients ul {
+    font-size: 17px;
+    opacity: 0.8;
+    margin-left: 1.5rem;
+}
+
+.ingredients ul li::marker {
+    color: var(--Brown);
+}
+
+.instructions {
+    padding: 1rem;
+
+}
+
+.instructions h3 {
+    color: var(--Brown);
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.instructions ol {
+    margin-left: 1.5rem;
+    font-size: 17px;
+    opacity: 0.9;
+}
+
+.instructions ol li::marker {
+    color: var(--Brown);
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.instructions ol li span {
+    font-weight: bolder;
+}
+
+.nutrition {
+    padding: 1rem;
+}
+
+.nutrition h3 {
+    color: var(--Brown);
+    font-size: 1.5rem;
+}
+
+.nutrition p {
+    opacity: 0.8;
+    font-size: 17px;
+}
+
+.nut-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    font-size: 20px;
+    border-bottom: 1px solid;
+}
+
+.nut-title span {
+    color: var(--Brown);
+    font-weight: bolder;
+}
