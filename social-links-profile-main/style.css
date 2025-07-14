@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+    --Green: hsl(75, 94%, 57%);
+    --White: hsl(0, 0%, 100%);
+    --Grey-700: hsl(0, 0%, 20%);
+    --Grey-800: hsl(0, 0%, 12%);
+    --Grey-900: hsl(0, 0%, 8%);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Figtree", sans-serif;
+    font-size: 14px;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0 auto;
+    background-color: var(--Grey-900);
+}
+
+ol,
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.box {
+    background-color: var(--Grey-800);
+    padding: 3rem;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-top img {
+    width: 100%;
+    display: block;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.box-center {
+    text-align: center;
+}
+
+.box-center h1 {
+    color: var(--White);
+}
+
+.box-center h4 {
+    color: var(--Green);
+}
+
+.box-center p {
+    color: var(--White);
+}
+
+.box-bot ul a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--Grey-700);
+    width: 300px;
+    height: 50px;
+    margin: 1rem;
+    border-radius: 10px;
+    color: var(--White);
+    font-weight: 800;
+
+}
+
+.box-bot .active {
+    background-color: var(--Green);
+    color: var(--Grey-900);
+}
